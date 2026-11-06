@@ -1,0 +1,80 @@
+[keyboard]
+name = "Keeboard"
+product_name = "Keeboard"
+vendor_id = 0x4c4b
+product_id = 0x4643
+manufacturer = "RMK"
+chip = "nrf52840"
+
+[matrix]
+row_pins = [
+  "P1_14", # ROW0 (Mapped to D9)
+  "P1_05", # ROW1 (Mapped to D18)
+  "P1_13", # ROW2 (Mapped to D8)
+  "P1_03", # ROW3 (Mapped to D17)
+  "P1_12", # ROW4 (Mapped to D7)
+]
+col_pins = [
+  "P0_15", # COL1  (Mapped to D11)
+  "P0_03", # COL2  (Mapped to D1)
+  "P0_19", # COL3  (Mapped to D12)
+  "P0_28", # COL4  (Mapped to D2)
+  "P1_01", # COL5  (Mapped to D13)
+  "P0_29", # COL6  (Mapped to D3)
+  "P0_09", # COL7  (Mapped to D14)
+  "P0_04", # COL8  (Mapped to D4)
+  "P0_10", # COL9  (Mapped to D15)
+  "P0_05", # COL10 (Mapped to D5) - Note: On the XIAO board, physical pin D5 runs straight to P0_10.
+  "P0_02", # COL11
+  "P1_11", # COL12 (Mapped to D6)
+  "P1_15", # COL13 (Mapped to D10)
+  "P1_07", # COL14 (Mapped to D19)
+]
+
+[layout]
+rows = 5
+cols = 14
+map = """
+(0,0) (0,1) (0,2) (0,3) (0,4) (0,5) (0,6) (0,7) (0,8) (0,9) (0,10) (0,11) (0,12) (0,13,@2u)
+(1,0,@1.5u) (1,1) (1,2) (1,3) (1,4) (1,5) (1,6) (1,7) (1,8) (1,9) (1,10) (1,11) (1,12) (1,13,@1.5u)
+(2,0,@1.75u) (2,1) (2,2) (2,3) (2,4) (2,5) (2,6) (2,7) (2,8) (2,9) (2,10) (2,11) (2,12,@2.25u)
+(3,0,@2.25u) (3,1) (3,2) (3,3) (3,4) (3,5) (3,6) (3,7) (3,8) (3,9) (3,10) (3,11,@2.75u)
+(4,0,@1.25u) (4,1,@1.25u) (4,2,@1.25u) (4,3,@6.25u) (4,4,@1.25u) (4,5,@1.25u) (4,6,@1.25u) (4,7,@1.25u)
+"""
+
+[keymap]
+layers = 2
+
+[[keymap.layer]]
+name = "base"
+keys = """
+GraveEscape Kc1 Kc2 Kc3 Kc4 Kc5 Kc6 Kc7 Kc8 Kc9 Kc0 Minus Equal Backspace
+Tab Q W E R T Y U I O P LeftBracket RightBracket Backslash
+CapsLock A S D F G H J K L Semicolon Quote Enter
+LShift Z X C V B N M Comma Dot Slash RShift
+LCtrl LGui LAlt Space RAlt MO(1) Menu RCtrl
+"""
+
+[[keymap.layer]]
+name = "fn"
+keys = """
+Grave F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 Delete
+_ _ _ _ _ _ _ _ Up _ _ _ _ _
+_ _ _ _ _ _ _ Left Down Right _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
+"""
+
+[ble]
+enabled = true
+# vddh has an internal voltage divider
+# battery_adc_pin = "vddh"
+# Or
+# battery_adc_pin = "P0_04"
+# adc_divider_measured = 2000
+# adc_divider_total = 2806
+
+# charge_state.pin = "P0_25"
+# charge_state.low_active = false
+# charge_led.pin = "P0_29"
+# charge_led.low_active = false
