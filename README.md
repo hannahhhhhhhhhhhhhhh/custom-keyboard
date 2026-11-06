@@ -3,7 +3,7 @@
 A custom 60% keyboard that I designed from scratch in KiCad. It has 61 keys, runs on a Seeed XIAO nRF52840 Plus, connects over Bluetooth or USB-C, and uses RMK firmware so you can remap every key with Vial. :3
 First time doing stuff with vial and rmk, it was quite a learning curve 
 
-<img width="2271" height="1187" alt="image" src="https://github.com/user-attachments/assets/fef3e448-8b04-4243-b011-49a6d15d76a9" />
+<img width="2345" height="1233" alt="image" src="https://github.com/user-attachments/assets/baa256a9-5577-47f0-8c57-4229dde1c7fa" />
 
 ## Why I Made This
 
@@ -30,7 +30,8 @@ I started from the Hack Club Blueprint wireless keyboard guide, which builds a s
 A 61-key keyboard would need 61 pins , and no microcontroller has that many so im forced to learn matrix. So the keys are wired as a matrix of 5 rows and 14 columns, which only needs 19 pins. The firmware drives one column at a time and checks which rows see a signal, which tells it exactly which key is pressed.
 
 Every switch has its own diode (SOD-123, the diode footprint from the guide). 
-<img width="2345" height="1233" alt="image" src="https://github.com/user-attachments/assets/baa256a9-5577-47f0-8c57-4229dde1c7fa" />
+
+<img width="1537" height="1034" alt="image" src="https://github.com/user-attachments/assets/48b22e53-5a6c-4f0b-80bc-b87f802fbf8e" />
 
 ### Why the XIAO nRF52840 Plus
 
@@ -47,7 +48,7 @@ TP1 (GND) and TP2 (VBAT) are the battery pads. Solder a single-cell LiPo to them
 
 ### The PCB
 
-<img width="1537" height="1034" alt="image" src="https://github.com/user-attachments/assets/48b22e53-5a6c-4f0b-80bc-b87f802fbf8e" />
+<img width="2271" height="1187" alt="image" src="https://github.com/user-attachments/assets/fef3e448-8b04-4243-b011-49a6d15d76a9" />
 
 The board has 61 switch footprints in a standard 60% layout, 5 stabilizer footprints (Backspace, Enter, Left Shift, Right Shift and Space), 6 mounting holes, and the two battery pads. and ground plane
 
