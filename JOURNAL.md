@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 5 | Tier 3 | 25h | 10 |
+| Week 5 | Tier 3 | 24h | 10 |
 
 ## Contents
 
@@ -23,7 +23,7 @@
 7. [2026-11-06: honestly, these 3 hours went mostly in troubleshooting firmware, rewriting firmware, rewriting keyboard.toml,  rewriting keyboard.toml, rewriting keyboard.toml, and discovering that it was not my prob](#2026-11-06-honestly-these-3-hours-went-mostly-in-troubleshoo)
 8. [2026-11-06: ![image](https://halflife.hackclub-assets.com/sessions/YITT1BpIhaUfu2wESuCR2Vtd1HPsflo7/676e3f43030cb8ed55c011107f80ac1bf62404735ffbc5fe16038af155006e95.png)](#2026-11-06-imagehttpshalflifehackclub-assetscomsessionsyitt1)
 9. [2026-11-06: ![image](https://halflife.hackclub-assets.com/sessions/YITT1BpIhaUfu2wESuCR2Vtd1HPsflo7/632697ee1a5c4170e4cfecc54a8e41dcbf6f9ef0737a79655d45027a42ded0c6.png)getting the parts prices. kinda expensive](#2026-11-06-imagehttpshalflifehackclub-assetscomsessionsyitt1)
-10. [2026-11-06: ![image](https://halflife.hackclub-assets.com/sessions/YITT1BpIhaUfu2wESuCR2Vtd1HPsflo7/75fb0d03e48f4bb6bfa1e31089601be968123c0c54cd4f1a398dd703231ae498.png) mfw shipping](#2026-11-06-imagehttpshalflifehackclub-assetscomsessionsyitt1)
+10. [2026-11-06: ive been working on this like the whole day ![image](https://halflife.hackclub-assets.com/sessions/YITT1BpIhaUfu2wESuCR2Vtd1HPsflo7/75fb0d03e48f4bb6bfa1e31089601be968123c0c54cd4f1a398dd703231ae498.png](#2026-11-06-ive-been-working-on-this-like-the-whole-day-image)
 
 ## Design
 
@@ -139,11 +139,11 @@ im choosing to make jlpcb solder the diodes for me because somehow every diode c
 
 ![image](https://halflife.hackclub-assets.com/sessions/YITT1BpIhaUfu2wESuCR2Vtd1HPsflo7/3a507a70baed84a393727305c655a1c8f3ed228c1b6128caf2e08adcbd008058.png) dont question why ordering took so long lol when doing the bom i realised I had to fix some footprints
 
-### 2026-11-06: ![image](https://halflife.hackclub-assets.com/sessions/YITT1BpIhaUfu2wESuCR2Vtd1HPsflo7/75fb0d03e48f4bb6bfa1e31089601be968123c0c54cd4f1a398dd703231ae498.png) mfw shipping
+### 2026-11-06: ive been working on this like the whole day ![image](https://halflife.hackclub-assets.com/sessions/YITT1BpIhaUfu2wESuCR2Vtd1HPsflo7/75fb0d03e48f4bb6bfa1e31089601be968123c0c54cd4f1a398dd703231ae498.png
 
-**2h**
+**1h**
 
-![image](https://halflife.hackclub-assets.com/sessions/YITT1BpIhaUfu2wESuCR2Vtd1HPsflo7/75fb0d03e48f4bb6bfa1e31089601be968123c0c54cd4f1a398dd703231ae498.png) mfw shipping
+ive been working on this like the whole day ![image](https://halflife.hackclub-assets.com/sessions/YITT1BpIhaUfu2wESuCR2Vtd1HPsflo7/75fb0d03e48f4bb6bfa1e31089601be968123c0c54cd4f1a398dd703231ae498.png) mfw shipping
 an hour of this session went to trying to find the cheapest parts. i mean ahem cheapest shipping. sooo 45 dollars of my hundred dollar budget is going to shipping lol nothing i can do about that
 on the bright side, progress for firmware!!!!realised i mapped the layout wrong so hopefully now its fixed
  my parents are screaming at me to go to sleep I'll continue it tomorrow
