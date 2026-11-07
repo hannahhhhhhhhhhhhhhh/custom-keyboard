@@ -164,3 +164,5 @@ github time. since i did it on two devices it took a bit to transfer the files a
 this thing should be done really soon now, just gotta get the 3d models for the keys so readme is less ugly
 
 ![image](https://halflife.hackclub-assets.com/sessions/YITT1BpIhaUfu2wESuCR2Vtd1HPsflo7/730aabb2c20587956ebc2b9647fad19eb056a9777eacf3f746058e306560b21a.png)
+
+![image](https://halflife.hackclub-assets.com/sessions/YITT1BpIhaUfu2wESuCR2Vtd1HPsflo7/bc97fa4a3b2675d6d62221f1f060295e3e3b2743ccfbb5cab431fd39e1c83176.png)
