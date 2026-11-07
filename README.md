@@ -3,7 +3,8 @@
 A custom 60% keyboard that I designed from scratch in KiCad. It has 61 keys, runs on a Seeed XIAO nRF52840 Plus, connects over Bluetooth or USB-C, and uses RMK firmware so you can remap every key with Vial. :3
 First time doing stuff with vial and rmk, it was quite a learning curve 
 
-<img width="1179" height="588" alt="image" src="https://github.com/user-attachments/assets/4972a60d-38f2-43b0-b986-50264b3cc9b2" />
+<img width="2089" height="1077" alt="image" src="https://github.com/user-attachments/assets/5b116cbc-fdad-484d-9d1e-a29fbfdc4caa" />
+
 
 please excuse the lack of 3d models for the above image:  I couldn't add the STEP files to the 3D viewer because my computer keeps crashing when I go to the footprint editor trying to give it a model
 
