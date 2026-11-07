@@ -4,6 +4,7 @@ A custom 60% keyboard that I designed from scratch in KiCad. It has 61 keys, run
 First time doing stuff with vial and rmk, it was quite a learning curve 
 
 <img width="2345" height="1233" alt="image" src="https://github.com/user-attachments/assets/baa256a9-5577-47f0-8c57-4229dde1c7fa" />
+please excuse the lack of 3d models for the above image:  I couldn't add the STEP files to the 3D viewer because my computer keeps crashing when I go to the footprint editor trying to give it a model
 
 ## Why I Made This
 
