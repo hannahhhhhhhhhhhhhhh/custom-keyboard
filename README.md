@@ -61,20 +61,23 @@ The default keymap has two layers. You can change everything in Vial, so this is
 
 ## Bill of Materials
 
-| Item | Qty | Supplier | Cost/Item (CAD) | Total Cost (CAD) | Link |
+All prices are in USD. I'm Canadian, so most of my prices were in CAD and I converted them at about 1 CAD = 0.72 USD.
+
+| Item | Qty | Supplier | Cost/Item (USD) | Total Cost (USD) | Link |
 |------|-----|----------|-----------------|------------------|------|
-| Seeed XIAO nRF52840 Plus | 1 | Seeed Studio | $[x.xx] | $[x.xx] | [link] |
-| YUNZII Milk V2 linear switches (pack of 35) | 2 | Canada Computers | $12.99 | $25.98 | [link] |
-| SOD-123 diodes (1N4148W or 1N5819HW) | 61 | [supplier] | $[x.xx] | $[x.xx] | [link] |
-| Keycaps (61-key set) | 1 | [supplier] | $[x.xx] | $[x.xx] | [link] |
-| PCB-mount stabilizers (1x 6.25u and 4x 2u) | 5 | [supplier] | $[x.xx] | $[x.xx] | [link] |
-| Single-cell LiPo battery | 1 | [supplier] | $[x.xx] | $[x.xx] | [link] |
-| Mounting screws and standoffs (M3) | 6 | [supplier] | $[x.xx] | $[x.xx] | [link] |
-| PCB fabrication (JLCPCB) | 1 | JLCPCB | $[x.xx] | $[x.xx] | [link] |
-| Estimated shipping | 1 | | | $[x.xx] | |
-| | | | **Total** | **$[x.xx]** | |
+| PCB | 1 | JLCPCB | $34.12 | $34.12 | [link](https://cart.jlcpcb.com/quote) |
+| Seeed Studio XIAO nRF52840 Plus | 1 | RobotShop | $10.80 | $10.80 | [link](https://ca.robotshop.com/products/seeed-studio-xiao-nrf52840-plus) |
+| YUNZII Milk V2 linear switches (35 per pack) | 2 | Canada Computers | $9.35 | $18.70 | [link](https://www.canadacomputers.com/en/keyboard-switches/285141/yunzii-milk-v2-linear-switch-35-pieces-per-pack-milk-v2.html) |
+| ECSiNG stabilizer set (7x 2U and 1x 6.25U) | 1 | Amazon.ca | $9.50 | $9.50 | [link](https://www.amazon.ca/dp/B0FGHP1QQN) |
+| SOD-123 diodes (ordered with the PCB) | 61 | JLCPCB | ordered with pcb | $0 | [link](https://cart.jlcpcb.com/quote) |
+| Estimated total tax and shipping | 1 | | | $40.47 | |
+| | | | **Total (before diodes)** | **$113.59** | |
 
+same list but without the key switches cost is in [`BOM.csv`](BOM.csv). (I already bought the key switches myself so didn't count that in bom. Keycaps aren't in this list yet because I'm still deciding on a set, so they aren't in the total.
 
+### About the shipping ;-;
+
+ok so I have to explain the shipping because it looks kind of crazy. I'm Canadian, and almost every store I could order from charges around $20 in shipping per order, no matter how small the order is FOR SOME REASON. To avoid paying that yet again, I ordered the diodes together with the PCB from JLCPCB instead of buying them from another store. Even with that, the tax and shipping for the rest of the parts comes to about $40.47 CAD (around $29.14 USD), and that part was unavoidable. So over a quarter of my total is just shipping q-p
 
 ## Firmware Flashing Guide
 
