@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 5 | Tier 3 | 24h | 10 |
+| Week 5 | Tier 3 | 24.5h | 10 |
 
 ## Contents
 
@@ -141,7 +141,7 @@ im choosing to make jlpcb solder the diodes for me because somehow every diode c
 
 ### 2026-11-06: ive been working on this like the whole day ![image](https://halflife.hackclub-assets.com/sessions/YITT1BpIhaUfu2wESuCR2Vtd1HPsflo7/75fb0d03e48f4bb6bfa1e31089601be968123c0c54cd4f1a398dd703231ae498.png
 
-**1h**
+**1.5h**
 
 ive been working on this like the whole day ![image](https://halflife.hackclub-assets.com/sessions/YITT1BpIhaUfu2wESuCR2Vtd1HPsflo7/75fb0d03e48f4bb6bfa1e31089601be968123c0c54cd4f1a398dd703231ae498.png) mfw shipping
 an hour of this session went to trying to find the cheapest parts. i mean ahem cheapest shipping. sooo 45 dollars of my hundred dollar budget is going to shipping lol nothing i can do about that
